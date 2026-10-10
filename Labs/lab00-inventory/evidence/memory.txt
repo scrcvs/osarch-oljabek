@@ -1,0 +1,8 @@
+﻿
+BankLabel Manufacturer        Capacity Speed ConfiguredClockSpeed
+--------- ------------        -------- ----- --------------------
+BANK 0    Micron Technology 8589934592  5600                 5200
+BANK 0    Micron Technology 8589934592  5600                 5200
+
+
+Total GB: 16

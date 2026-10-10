@@ -1,0 +1,17 @@
+﻿
+
+FriendlyName : BIWIN CE980Q41R00-512
+MediaType    : SSD
+BusType      : NVMe
+Size         : 512110190592
+
+
+
+
+DriveLetter FileSystemLabel         Size SizeRemaining
+----------- ---------------         ---- -------------
+                               205520896     169359360
+C                           510973177856  413787586560
+                               908062720      85778432
+
+
