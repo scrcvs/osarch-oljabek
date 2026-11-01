@@ -1,0 +1,214 @@
+﻿**********************
+Начало записи сценария Windows PowerShell
+Время начала: 20261101182120
+Имя пользователя: HOST-REDACTED\USER
+Запуск от имени пользователя: HOST-REDACTED\USER
+Имя конфигурации: 
+Компьютер: HOST-REDACTED (Microsoft Windows NT 10.0.26200.0)
+Ведущее приложение: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+ИД процесса: 21008
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Транскрибирование запущено, выходной файл C:\Users\USER\Desktop\lab03-evidence\windows-specs.txt
+PS C:\WINDOWS\System32> Get-CimInstance Win32_ComputerSystem | Format-List *
+
+
+AdminPasswordStatus         : 3
+BootupState                 : Normal boot
+ChassisBootupState          : 3
+KeyboardPasswordStatus      : 3
+PowerOnPasswordStatus       : 3
+PowerSupplyState            : 3
+PowerState                  : 0
+FrontPanelResetStatus       : 3
+ThermalState                : 3
+Status                      : OK
+Name                        : HOST-REDACTED
+PowerManagementCapabilities :
+PowerManagementSupported    :
+Caption                     : HOST-REDACTED
+Description                 : AT/AT COMPATIBLE
+InstallDate                 :
+CreationClassName           : Win32_ComputerSystem
+NameFormat                  :
+PrimaryOwnerContact         :
+PrimaryOwnerName            : 9
+Roles                       : {LM_Workstation, LM_Server, NT}
+InitialLoadInfo             :
+LastLoadInfo                :
+ResetCapability             : 1
+AutomaticManagedPagefile    : True
+AutomaticResetBootOption    : True
+AutomaticResetCapability    : True
+BootOptionOnLimit           :
+BootOptionOnWatchDog        :
+BootROMSupported            : True
+BootStatus                  : {0, 0, 0, 34...}
+ChassisSKUNumber            : Default string
+CurrentTimeZone             : 300
+DaylightInEffect            :
+DNSHostName                 : HOST-REDACTED
+Domain                      : WORKGROUP
+DomainRole                  : 0
+EnableDaylightSavingsTime   : True
+HypervisorPresent           : False
+InfraredSupported           : False
+Manufacturer                : ASUSTeK COMPUTER INC.
+Model                       : ASUS Vivobook S 16 S3607VA_S3607VA
+NetworkServerModeEnabled    : True
+NumberOfLogicalProcessors   : 12
+NumberOfProcessors          : 1
+OEMLogoBitmap               :
+OEMStringArray              : {  ,  ,  ,  ...}
+PartOfDomain                : False
+PauseAfterReset             : -1
+PCSystemType                : 2
+PCSystemTypeEx              : 2
+ResetCount                  : -1
+ResetLimit                  : -1
+SupportContactDescription   :
+SystemFamily                : ASUS Vivobook S 16
+SystemSKUNumber             :
+SystemStartupDelay          :
+SystemStartupOptions        :
+SystemStartupSetting        :
+SystemType                  : x64-based PC
+TotalPhysicalMemory         : 16802062336
+UserName                    : HOST-REDACTED\USER
+WakeUpType                  : 6
+Workgroup                   : WORKGROUP
+PSComputerName              :
+CimClass                    : root/cimv2:Win32_ComputerSystem
+CimInstanceProperties       : {Caption, Description, InstallDate, Name...}
+CimSystemProperties         : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+PS C:\WINDOWS\System32> Get-CimInstance Win32_ComputerSystemProduct | Format-List Name,Version
+
+
+Name    : ASUS Vivobook S 16 S3607VA_S3607VA
+Version : 1.0
+
+
+
+PS C:\WINDOWS\System32> Get-CimInstance Win32_Processor | Format-List *
+
+
+Availability                            : 3
+CpuStatus                               : 1
+CurrentVoltage                          : 12
+DeviceID                                : CPU0
+ErrorCleared                            :
+ErrorDescription                        :
+LastErrorCode                           :
+LoadPercentage                          : 0
+Status                                  : OK
+StatusInfo                              : 3
+AddressWidth                            : 64
+DataWidth                               : 64
+ExtClock                                : 100
+L2CacheSize                             : 7168
+L2CacheSpeed                            :
+MaxClockSpeed                           : 2200
+PowerManagementSupported                : False
+ProcessorType                           : 3
+Revision                                :
+SocketDesignation                       : U3E1
+Version                                 :
+VoltageCaps                             :
+Caption                                 : Intel64 Family 6 Model 186 Stepping 2
+Description                             : Intel64 Family 6 Model 186 Stepping 2
+InstallDate                             :
+Name                                    : Intel(R) Core(TM) 5 210H
+ConfigManagerErrorCode                  :
+ConfigManagerUserConfig                 :
+CreationClassName                       : Win32_Processor
+PNPDeviceID                             :
+PowerManagementCapabilities             :
+SystemCreationClassName                 : Win32_ComputerSystem
+SystemName                              : HOST-REDACTED
+CurrentClockSpeed                       : 2200
+Family                                  : 769
+OtherFamilyDescription                  :
+Role                                    : CPU
+Stepping                                :
+UniqueId                                :
+UpgradeMethod                           : 65
+Architecture                            : 9
+AssetTag                                : To Be Filled By O.E.M.
+Characteristics                         : 252
+L3CacheSize                             : 12288
+L3CacheSpeed                            : 0
+Level                                   : 6
+Manufacturer                            : GenuineIntel
+NumberOfCores                           : 8
+NumberOfEnabledCore                     : 8
+NumberOfLogicalProcessors               : 12
+PartNumber                              : To Be Filled By O.E.M.
+ProcessorId                             : REDACTED
+SecondLevelAddressTranslationExtensions : True
+SerialNumber                            : REDACTED
+ThreadCount                             : 12
+VirtualizationFirmwareEnabled           : True
+VMMonitorModeExtensions                 : True
+PSComputerName                          :
+CimClass                                : root/cimv2:Win32_Processor
+CimInstanceProperties                   : {Caption, Description, InstallDate, Name...}
+CimSystemProperties                     : Microsoft.Management.Infrastructure.CimSystemProperties
+
+
+
+PS C:\WINDOWS\System32> Get-CimInstance Win32_PhysicalMemory | Format-List Capacity,Speed,SMBIOSMemoryType,FormFactor
+
+
+Capacity         : 8589934592
+Speed            : 5600
+SMBIOSMemoryType : 34
+FormFactor       : 12
+
+Capacity         : 8589934592
+Speed            : 5600
+SMBIOSMemoryType : 34
+FormFactor       : 12
+
+
+
+PS C:\WINDOWS\System32> Get-CimInstance Win32_PhysicalMemoryArray | Format-List MemoryDevices,MaxCapacity
+
+
+MemoryDevices : 2
+MaxCapacity   : 67108864
+
+
+
+PS C:\WINDOWS\System32> Get-PhysicalDisk | Format-List FriendlyName,MediaType,BusType,Size
+
+
+FriendlyName : BIWIN CE980Q41R00-512
+MediaType    : SSD
+BusType      : NVMe
+Size         : 512110190592
+
+
+
+PS C:\WINDOWS\System32> Get-CimInstance Win32_BaseBoard | Format-List Manufacturer,Product
+
+
+Manufacturer : ASUSTeK COMPUTER INC.
+Product      : S3607VA
+
+
+
+PS C:\WINDOWS\System32> Stop-Transcript
+**********************
+Конец записи протокола Windows PowerShell
+Время окончания: 20261101182434
+**********************
