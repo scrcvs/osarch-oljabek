@@ -1,11 +1,22 @@
-Review by Samira Aubakirova
+# Feedback on <ИМЯ_АВТОРА>'s BUILD.md
+Reviewer: Samira Aubakirova
+Commit reviewed: <ВСТАВЬТЕ_PERMALINK_НА_КОММИТ_АВТОРА>
+Hypervisor I used: VMware Workstation
 
-I followed this guide to set up a test virtual machine using VirtualBox and Ubuntu. The instructions were clear and easy to follow, especially because of the screenshots.
+## First step where I got stuck
+Step number: Part B, Step 5
+What the step says: "In Customize Hardware, choose NAT networking and a conservative RAM/CPU allocation that leaves enough memory for the host. For comparison, an older lab02-win11 VM used 4 GB RAM and 2 virtual processors; these values have not been verified for the new Ticket1-Windows11 guest. Capture the new guest's actual hardware settings before claiming them."
+What I did: Attempted to set the CPU and Memory values for the new Windows 11 virtual machine in the hardware wizard.
+What happened / what I had to guess: The guide did not specify exact numerical values for the new Ticket1-Windows11 VM (RAM in MB/GB and number of vCPUs), stating only that they were unverified. As someone who has never configured a hypervisor, I did not know what "conservative allocation" meant relative to the host, and I had to guess whether to assign 4 GB or 8 GB of RAM and 2 or 4 cores to satisfy Windows 11 system requirements without starving the host.
 
-I started by installing VirtualBox and downloading Ubuntu. Then I created a VM with 2 CPUs, 2 GB of RAM, and 20 GB of storage.
+## Other places I hesitated
+- Part A, Step 5 vs Part B, Step 5: Ubuntu was assigned 6 GB of RAM while Windows 11 was suggested at 4 GB. Usually Windows 11 requires more system memory than a minimal headless Ubuntu Server. On a 16 GB host, running both simultaneously with these numbers leaves only 6 GB for Windows host processes.
+- Part C, Step 4: The step mentions enabling File and Printer Sharing (Echo Request - ICMPv4-In) in wf.msc. While the warning not to disable the whole firewall is excellent, a beginner might struggle to locate the exact rule among hundreds in Windows Firewall without an explicit filter or PowerShell command.
 
-During the installation, I faced two small problems. First, Ubuntu took longer to install than I expected, and I thought it was frozen. I waited a little longer, and it continued normally. Second, the internet connection wasn’t working at first. I checked the network settings, switched to NAT, and restarted the VM, which fixed the issue.
+## Settings I would not have chosen without the document
+- Splitting the virtual disk into multiple files for Windows 11 (64 GB) to make it easier to transfer across filesystems without hitting file-size limits.
+- Enabling the specific ICMPv4-In firewall rule rather than turning off the entire Windows Defender Firewall when testing guest-to-guest ping.
+- Selecting NAT networking explicitly to ensure both guests reside on the same isolated virtual subnet while retaining outbound internet access through the host.
 
-After that, everything worked fine. I also created a snapshot called “Clean Install” so I could restore the system if something went wrong.
-
-Overall, I think this is a useful guide for beginners. The steps are simple and well-explained, but adding some troubleshooting tips would make it even better.
+## One thing that worked well
+- The distinction in Part D, Step 3 between VM snapshots (short-term state rollbacks) and true backups is clearly stated and directly reinforces the Week 5 Storage & I/O 3-2-1 backup principle.
