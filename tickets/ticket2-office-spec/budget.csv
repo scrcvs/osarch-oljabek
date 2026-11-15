@@ -1,0 +1,37 @@
+role,component,model,price_kzt,source,date
+accountant,CPU,AMD Ryzen 5 8500G OEM (6C/12T; Radeon 740M iGPU),57211,Ants.kz – https://ants.kz/catalog/protsessory/tovar-78695/,2026-11-15
+accountant,Motherboard,Gigabyte A620M DS3H (AM5; 4x DDR5; HDMI+DP),43875,Ants.kz – https://ants.kz/catalog/materinskie-platy/tovar-72559/,2026-11-15
+accountant,RAM,Kingston Fury Beast RGB DDR5-5600 16GB (2x8GB) KF556C36BBEAK2-16,167094,Ants.kz – https://ants.kz/catalog/operativnaya-pamyat/tovar-72871/,2026-11-15
+accountant,SSD,Kingston NV3 1TB NVMe PCIe 4.0 (SNV3S/1000G),76518,Ants.kz – https://ants.kz/catalog/ssd-nakopiteli/tovar-84866/,2026-11-15
+accountant,PSU,Deepcool PF550 550W 80+,27107,Ants.kz – https://ants.kz/catalog/bloki-pitaniya/48993-deepcool-pf550/,2026-11-15
+accountant,Case,Zalman N4 Rev.1,22186,Flexcom.kz – https://flexcom.kz/p132064608-kompyuternyj-korpus-zalman.html,2026-11-15
+accountant,CPU cooler,Deepcool AG400,13174,Ants.kz – https://ants.kz/catalog/kulera-dlya-protsessorov/56633-deepcool-ag400/,2026-11-15
+accountant,OS licence,Microsoft Windows 11 Pro 64-bit Rus OEM DSP,90067,Bien via alfa.kz – https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+accountant,Monitor,AOC 24B31H/01 23.8in IPS 1920x1080 120Hz (HDMI),38722,Ants.kz – https://ants.kz/catalog/monitory/tovar-95938/,2026-11-15
+sales,CPU,AMD Ryzen 5 7600 OEM (6C/12T; Radeon iGPU),89305,Ants.kz – https://ants.kz/catalog/protsessory/tovar-68491/,2026-11-15
+sales,Motherboard,Gigabyte A620M DS3H (AM5; 4x DDR5; HDMI+DP),43875,Ants.kz – https://ants.kz/catalog/materinskie-platy/tovar-72559/,2026-11-15
+sales,RAM,Kingston Fury Beast RGB DDR5-5600 16GB (2x8GB) KF556C36BBEAK2-16,167094,Ants.kz – https://ants.kz/catalog/operativnaya-pamyat/tovar-72871/,2026-11-15
+sales,SSD,Kingston NV3 1TB NVMe PCIe 4.0 (SNV3S/1000G),76518,Ants.kz – https://ants.kz/catalog/ssd-nakopiteli/tovar-84866/,2026-11-15
+sales,PSU,Deepcool PF550 550W 80+,27107,Ants.kz – https://ants.kz/catalog/bloki-pitaniya/48993-deepcool-pf550/,2026-11-15
+sales,Case,Zalman N4 Rev.1,22186,Flexcom.kz – https://flexcom.kz/p132064608-kompyuternyj-korpus-zalman.html,2026-11-15
+sales,CPU cooler,Deepcool AG400,13174,Ants.kz – https://ants.kz/catalog/kulera-dlya-protsessorov/56633-deepcool-ag400/,2026-11-15
+sales,OS licence,Microsoft Windows 11 Pro 64-bit Rus OEM DSP,90067,Bien via alfa.kz – https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+sales,Monitor,AOC 24B3QA2/01 23.8in IPS 1920x1080 120Hz (DP+HDMI),48159,Ants.kz – https://ants.kz/catalog/monitory/tovar-97919/,2026-11-15
+developer,CPU,AMD Ryzen 7 7700 OEM (8C/16T; Radeon iGPU),91726,Ants.kz – https://ants.kz/catalog/protsessory/tovar-64025/,2026-11-15
+developer,Motherboard,MSI PRO B650M-P (AM5; 4x DDR5; 2x M.2),61990,Shop.kz – https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,2026-11-15
+developer,RAM,Kingston Fury Beast DDR5-6000 32GB (2x16GB) KF560C36BBE2K2-32,318985,Ants.kz – https://ants.kz/catalog/operativnaya-pamyat/tovar-89787/,2026-11-15
+developer,SSD,Samsung 990 PRO 1TB NVMe PCIe 4.0 (MZ-V9P1T0BW),122783,Ants.kz – https://ants.kz/catalog/ssd-nakopiteli/tovar-60647/,2026-11-15
+developer,PSU,Deepcool PF550 550W 80+,27107,Ants.kz – https://ants.kz/catalog/bloki-pitaniya/48993-deepcool-pf550/,2026-11-15
+developer,Case,Zalman N4 Rev.1,22186,Flexcom.kz – https://flexcom.kz/p132064608-kompyuternyj-korpus-zalman.html,2026-11-15
+developer,CPU cooler,Deepcool AG400,13174,Ants.kz – https://ants.kz/catalog/kulera-dlya-protsessorov/56633-deepcool-ag400/,2026-11-15
+developer,OS licence,Microsoft Windows 11 Pro 64-bit Rus OEM DSP,90067,Bien via alfa.kz – https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+developer,Monitor,AOC Q27B35S3/01 27in IPS 2560x1440 120Hz,69890,Flexcom.kz – https://flexcom.kz/p136277020-monitor-aoc-q27b35s301.html,2026-11-15
+designer,CPU,AMD Ryzen 7 8700G OEM (8C/16T; Radeon 780M iGPU),119830,Ants.kz – https://ants.kz/catalog/protsessory/tovar-78698/,2026-11-15
+designer,Motherboard,MSI PRO B650M-P (AM5; 4x DDR5; 2x M.2),61990,Shop.kz – https://shop.kz/offer/materinskaya-plata-msi-pro-b650m-p-am5/,2026-11-15
+designer,RAM,Kingston Fury Beast DDR5-6000 32GB (2x16GB) KF560C36BBE2K2-32,318985,Ants.kz – https://ants.kz/catalog/operativnaya-pamyat/tovar-89787/,2026-11-15
+designer,SSD,Kingston NV3 1TB NVMe PCIe 4.0 (SNV3S/1000G),76518,Ants.kz – https://ants.kz/catalog/ssd-nakopiteli/tovar-84866/,2026-11-15
+designer,PSU,Deepcool PF550 550W 80+,27107,Ants.kz – https://ants.kz/catalog/bloki-pitaniya/48993-deepcool-pf550/,2026-11-15
+designer,Case,Zalman N4 Rev.1,22186,Flexcom.kz – https://flexcom.kz/p132064608-kompyuternyj-korpus-zalman.html,2026-11-15
+designer,CPU cooler,Deepcool AG400,13174,Ants.kz – https://ants.kz/catalog/kulera-dlya-protsessorov/56633-deepcool-ag400/,2026-11-15
+designer,OS licence,Microsoft Windows 11 Pro 64-bit Rus OEM DSP,90067,Bien via alfa.kz – https://alfa.kz/pc/soft/os/microsoft/oem,2026-11-15
+designer,Monitor,ASUS ProArt PA279CV 27in IPS 3840x2160 100% sRGB factory-calibrated,261480,METOO.KZ via satu.kz – https://satu.kz/p135626429-monitor-asus-proart.html,2026-11-15
